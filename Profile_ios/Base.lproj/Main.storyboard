@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="anK-vu-qe4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Profile_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button clearsContextBeforeDrawing="NO" tag="-2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="nhf-yq-QXi">
+                                <rect key="frame" x="0.0" y="600" width="414" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Information">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" layoutMarginsFollowReadableWidth="NO"/>
+                                <connections>
+                                    <segue destination="uHh-Ob-FT4" kind="push" id="dJd-QU-Lxp"/>
+                                </connections>
+                            </button>
+                            <button clearsContextBeforeDrawing="NO" tag="-2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="XOp-5J-wDN">
+                                <rect key="frame" x="-4" y="638" width="418" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Education">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" layoutMarginsFollowReadableWidth="NO"/>
+                                <connections>
+                                    <segue destination="c5g-6p-uEi" kind="push" id="HLB-mY-GWe"/>
+                                </connections>
+                            </button>
+                            <button clearsContextBeforeDrawing="NO" tag="-2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="1uF-7Z-IsQ">
+                                <rect key="frame" x="-4" y="676" width="414" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Projects">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" layoutMarginsFollowReadableWidth="NO"/>
+                                <connections>
+                                    <segue destination="krp-CF-7by" kind="push" id="e6z-zT-aZg"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="aida.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6wn-qy-PQJ">
+                                <rect key="frame" x="-13" y="124" width="440" height="426"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bf8-7T-0gW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1781.1594202898552" y="-183.48214285714286"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OlI-fc-wFZ">
+            <objects>
+                <viewController id="c5g-6p-uEi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t6M-co-72h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="guK-PN-38O">
+                                <rect key="frame" x="20" y="194.5" width="374" height="687.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Montgomery College – Silver Spring, Maryland
+Academy Honor: 
+Dean’s list (4 semesters)
+Member of the Honor Society: Phi Theta Kappa
+Pursued an Associate Degree in Computer Science
+
+
+
+University of Maryland– Adelphi Road, MD
+Academy Honor: 
+Dean’s list (2 semesters)
+Pursued a Bachelor of Science in Computer Science
+Graduation Date: December 2019
+
+University of Maryland– Adelphi Road, MD
+Pursuing a Master in Cybersecurity
+Graduation Date: December 2021
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5C4-OK-OdH">
+                                <rect key="frame" x="20" y="108" width="374" height="66.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="61"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NY2-yH-76W"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NY2-yH-76W" firstAttribute="trailing" secondItem="5C4-OK-OdH" secondAttribute="trailing" constant="20" id="1IG-dT-2F0"/>
+                            <constraint firstItem="guK-PN-38O" firstAttribute="top" secondItem="5C4-OK-OdH" secondAttribute="bottom" constant="20" id="259-lO-nzH"/>
+                            <constraint firstItem="5C4-OK-OdH" firstAttribute="top" secondItem="NY2-yH-76W" secondAttribute="top" constant="20" id="4OF-pE-DCJ"/>
+                            <constraint firstItem="5C4-OK-OdH" firstAttribute="leading" secondItem="NY2-yH-76W" secondAttribute="leading" constant="20" id="4mi-fm-xz8"/>
+                            <constraint firstItem="guK-PN-38O" firstAttribute="top" secondItem="5C4-OK-OdH" secondAttribute="bottom" constant="20" id="GKN-XA-hc7"/>
+                            <constraint firstItem="guK-PN-38O" firstAttribute="bottom" secondItem="NY2-yH-76W" secondAttribute="bottom" constant="20" id="JYa-W8-3rc"/>
+                            <constraint firstItem="guK-PN-38O" firstAttribute="top" secondItem="5C4-OK-OdH" secondAttribute="bottom" constant="20" id="gu2-dd-iOB"/>
+                            <constraint firstItem="NY2-yH-76W" firstAttribute="trailing" secondItem="guK-PN-38O" secondAttribute="trailing" constant="20" id="k8f-xp-6kJ"/>
+                            <constraint firstItem="5C4-OK-OdH" firstAttribute="top" secondItem="NY2-yH-76W" secondAttribute="top" constant="20" id="q8O-XW-J0q"/>
+                            <constraint firstItem="guK-PN-38O" firstAttribute="leading" secondItem="NY2-yH-76W" secondAttribute="leading" constant="20" id="v4A-BF-PmP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dRO-wx-i8w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sv2-YM-O0q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-975.36231884057975" y="-766.07142857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1hJ-2V-zef">
+            <objects>
+                <viewController id="uHh-Ob-FT4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ck8-2P-09k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: Aida Diallo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiZ-FZ-zkI">
+                                <rect key="frame" x="20" y="651.5" width="374" height="27.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: Sterling, Va" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rmN-Sw-HMt">
+                                <rect key="frame" x="20" y="711" width="374" height="27.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email: aida922006@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qii-yb-BTi">
+                                <rect key="frame" x="20" y="770.5" width="374" height="27.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Information" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfk-Zq-hIB">
+                                <rect key="frame" x="74" y="114" width="267" height="30.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" image="download-free-png-dissociative-identity-disorder-dlpngcom-dissociative-identity-disorder-png-706_780.png" translatesAutoresizingMaskIntoConstraints="NO" id="PT3-S3-k8G">
+                                <rect key="frame" x="50" y="256" width="314" height="283"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2MD-1L-ViZ"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qii-yb-BTi" firstAttribute="top" secondItem="rmN-Sw-HMt" secondAttribute="bottom" constant="32" id="3t8-f7-EB2"/>
+                            <constraint firstItem="2MD-1L-ViZ" firstAttribute="trailing" secondItem="rmN-Sw-HMt" secondAttribute="trailing" constant="20" id="7ae-7m-Cfg"/>
+                            <constraint firstItem="2MD-1L-ViZ" firstAttribute="trailing" secondItem="PT3-S3-k8G" secondAttribute="trailing" constant="50" id="7t8-6c-wb6"/>
+                            <constraint firstItem="bfk-Zq-hIB" firstAttribute="leading" secondItem="2MD-1L-ViZ" secondAttribute="leading" constant="74" id="9KA-EO-mM6"/>
+                            <constraint firstItem="rmN-Sw-HMt" firstAttribute="top" secondItem="FiZ-FZ-zkI" secondAttribute="bottom" constant="32" id="CZ2-XG-oWi"/>
+                            <constraint firstItem="qii-yb-BTi" firstAttribute="leading" secondItem="2MD-1L-ViZ" secondAttribute="leading" constant="20" id="FKj-GA-ZZ0"/>
+                            <constraint firstItem="FiZ-FZ-zkI" firstAttribute="leading" secondItem="2MD-1L-ViZ" secondAttribute="leading" constant="20" id="KT8-Ag-3nE"/>
+                            <constraint firstItem="2MD-1L-ViZ" firstAttribute="trailing" secondItem="bfk-Zq-hIB" secondAttribute="trailing" constant="73" id="P7k-cQ-Ghs"/>
+                            <constraint firstItem="rmN-Sw-HMt" firstAttribute="top" secondItem="FiZ-FZ-zkI" secondAttribute="bottom" constant="32" id="Vck-0s-RWo"/>
+                            <constraint firstItem="2MD-1L-ViZ" firstAttribute="bottom" secondItem="qii-yb-BTi" secondAttribute="bottom" constant="64" id="Z4P-Fa-Jn1"/>
+                            <constraint firstItem="rmN-Sw-HMt" firstAttribute="top" secondItem="FiZ-FZ-zkI" secondAttribute="bottom" constant="32" id="bAZ-YH-p5j"/>
+                            <constraint firstItem="2MD-1L-ViZ" firstAttribute="trailing" secondItem="FiZ-FZ-zkI" secondAttribute="trailing" constant="20" id="bvM-OU-d7W"/>
+                            <constraint firstItem="PT3-S3-k8G" firstAttribute="leading" secondItem="2MD-1L-ViZ" secondAttribute="leading" constant="50" id="c1k-H3-Agz"/>
+                            <constraint firstItem="bfk-Zq-hIB" firstAttribute="top" secondItem="2MD-1L-ViZ" secondAttribute="top" constant="26" id="dQq-b0-7FW"/>
+                            <constraint firstItem="2MD-1L-ViZ" firstAttribute="trailing" secondItem="qii-yb-BTi" secondAttribute="trailing" constant="20" id="g3M-vI-wZ5"/>
+                            <constraint firstItem="2MD-1L-ViZ" firstAttribute="trailing" secondItem="FiZ-FZ-zkI" secondAttribute="trailing" constant="20" id="lJi-fO-zJL"/>
+                            <constraint firstItem="rmN-Sw-HMt" firstAttribute="leading" secondItem="2MD-1L-ViZ" secondAttribute="leading" constant="20" id="wgd-hR-N2j"/>
+                            <constraint firstItem="FiZ-FZ-zkI" firstAttribute="leading" secondItem="2MD-1L-ViZ" secondAttribute="leading" constant="20" id="wqb-ek-p39"/>
+                            <constraint firstItem="qii-yb-BTi" firstAttribute="top" secondItem="rmN-Sw-HMt" secondAttribute="bottom" constant="32" id="yZG-Dn-8FG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="CUi-cZ-Tif"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nKr-YS-bfC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-297.10144927536237" y="-286.60714285714283"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lVI-Mp-ZC7">
+            <objects>
+                <viewController id="krp-CF-7by" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mu9-ts-IqH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PROJECTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOb-6K-ePh">
+                                <rect key="frame" x="20" y="108" width="374" height="173"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="61"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JNn-sl-oAY">
+                                <rect key="frame" x="20" y="289" width="374" height="573"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Typing Speed Web Page
+Used HTML, JavaScript, and CSS on Atom Live Server to build a webpage that would allow the user to test his typing speed. The page contains:
+A header that displays what the user is able to do on the page
+The original text area that contains the text the user should duplicate in the test area
+The test area in which the user types in the original text to test speed
+The timer that times the user text typing
+The reset button that reset the timer every time the user presses it
+Calendar Application 
+Worked on 8 weeks group project with three other team members to build an application that kept track of special dates. The language used was Java SE and the IDE was eclipse. The program was able to:
+Ask the user to enter a password to gain access
+Allow the user to save, view, and edit dates
+Allow the user to view a filtered list of all dates, by category</mutableString>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aGL-0P-wO9"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JNn-sl-oAY" firstAttribute="top" secondItem="hOb-6K-ePh" secondAttribute="bottom" constant="20" id="FBT-31-EwL"/>
+                            <constraint firstItem="aGL-0P-wO9" firstAttribute="bottom" secondItem="JNn-sl-oAY" secondAttribute="bottom" constant="20" id="HCE-ua-abQ"/>
+                            <constraint firstItem="hOb-6K-ePh" firstAttribute="leading" secondItem="aGL-0P-wO9" secondAttribute="leading" constant="20" id="Oew-a3-te2"/>
+                            <constraint firstItem="hOb-6K-ePh" firstAttribute="top" secondItem="aGL-0P-wO9" secondAttribute="top" constant="20" id="QSA-TP-4NT"/>
+                            <constraint firstItem="JNn-sl-oAY" firstAttribute="top" secondItem="hOb-6K-ePh" secondAttribute="bottom" constant="8" symbolic="YES" id="bHb-4d-1Oh"/>
+                            <constraint firstItem="aGL-0P-wO9" firstAttribute="trailing" secondItem="hOb-6K-ePh" secondAttribute="trailing" constant="20" id="fcM-Kg-fhe"/>
+                            <constraint firstItem="aGL-0P-wO9" firstAttribute="trailing" secondItem="JNn-sl-oAY" secondAttribute="trailing" constant="20" id="hB6-Mb-M1q"/>
+                            <constraint firstItem="JNn-sl-oAY" firstAttribute="leading" secondItem="aGL-0P-wO9" secondAttribute="leading" constant="20" id="zsF-aL-Fmz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YWF-hp-42d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="msO-dN-Dub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-879.71014492753625" y="115.84821428571428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7LS-xo-lUX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="va8-Ag-A74" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="anK-vu-qe4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XMa-9D-8wy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2Xs-i0-orN" kind="relationship" relationship="rootViewController" id="AGx-kY-bUj"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-3386" y="75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nzf-ct-GO8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Xs-i0-orN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="8gW-DB-8ta"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kgi-Fk-7ae">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="SWt-FY-TLl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Naj-GY-jsX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2629" y="-126"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="aida.jpg" width="612" height="921"/>
+        <image name="download-free-png-dissociative-identity-disorder-dlpngcom-dissociative-identity-disorder-png-706_780.png" width="706" height="780"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
