@@ -1,7 +1,7 @@
 # profile_ios26
 
 # Splash
-[![Screen-Shot-2020-12-30-at-1-48-21-PM.png](https://i.postimg.cc/zvx6JdLw/Screen-Shot-2020-12-30-at-1-48-21-PM.png)](https://postimg.cc/vx63httD)
+[![Screen-Shot-2021-01-04-at-7-44-07-PM.png](https://i.postimg.cc/52LPRqpx/Screen-Shot-2021-01-04-at-7-44-07-PM.png)](https://postimg.cc/3krCyGP6)
 
 # Home
-[![Screen-Shot-2020-12-30-at-1-47-48-PM.png](https://i.postimg.cc/50C2QC5F/Screen-Shot-2020-12-30-at-1-47-48-PM.png)](https://postimg.cc/CBwgWdQF)
+[![Screen-Shot-2021-01-04-at-7-44-15-PM.png](https://i.postimg.cc/PJ76BSBq/Screen-Shot-2021-01-04-at-7-44-15-PM.png)](https://postimg.cc/YL1fFz2c)
